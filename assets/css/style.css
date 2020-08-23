@@ -1,0 +1,11 @@
+.demo-row {
+	border: 1px solid #333;
+}
+
+.demo-row .demo-col {
+	min-height: 50px;
+}
+
+.demo-row .demo-col:not(:last-child) {
+	border-right: 1px solid #333;
+}
