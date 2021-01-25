@@ -2,10 +2,6 @@
 	box-sizing: border-box;
 }
 
-html, body {
-	height: 100%;
-}
-
 .full-width {
 	width: 100%;
 }
@@ -116,9 +112,17 @@ html, body {
 	text-align: right;
 }
 
+.block-left {
+	margin-right: auto;
+}
+
 .block-center {
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.block-right {
+	margin-left: auto;
 }
 
 .horizontal-scroll {

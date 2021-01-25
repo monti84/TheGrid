@@ -1,3 +1,11 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	padding: 10px;
+}
+
 .demo-row {
 	border: 1px solid #333;
 }
@@ -8,4 +16,11 @@
 
 .demo-row .demo-col:not(:last-child) {
 	border-right: 1px solid #333;
+}
+
+.demo-block-with-border-1 {
+	width: 50px;
+	height: 30px;
+	background: red;
+	font-size: 12px;
 }
