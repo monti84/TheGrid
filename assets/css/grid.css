@@ -95,9 +95,19 @@
     -webkit-align-items: center;
 }
 
+.self-vcenter {
+  align-self: center;
+  -webkit-align-self: center;
+}
+
 .flex-vbottom {
     align-items: flex-end;
     -webkit-align-items: flex-end;
+}
+
+.self-vbottom {
+  align-self: flex-end;
+  -webkit-align-self: flex-end;
 }
 
 .text-left {
